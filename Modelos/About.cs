@@ -1,10 +1,12 @@
 ﻿namespace JuventicApiReto4.Modelos
 {
-    public class Empleado
+    public class About
     {
         public int id { get; set; }
-        public string nombre { get; set; }
-        public string cargo { get; set; }
+
+        public string historia { get; set; }
+        public string compromiso { get; set; }
+
         public string imagen { get; set; }
     }
 }
